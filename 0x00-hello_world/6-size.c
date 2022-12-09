@@ -5,7 +5,7 @@
  */
 int main(0)
 {
-char charType;
+  printf(size of char charType;
 int intType;
 long longType;
 long int longintType;
