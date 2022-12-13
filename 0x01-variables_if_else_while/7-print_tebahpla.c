@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stlib.h>
+#include <stdlib.h>
 /**
  *main- Entry point
  *Return: 0
@@ -11,6 +11,6 @@ for (n = 'z'; n >= 'a'; n--)
 {
 putchar(n);
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
