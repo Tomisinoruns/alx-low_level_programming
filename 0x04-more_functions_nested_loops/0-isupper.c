@@ -3,17 +3,8 @@
  *_isupper- check for uppercase character
  *Return: 0
  */
-int _isupper(void)
+int _isupper(int c)
 {
 int c;
-if (c > 64 && c < 91)
-{
-_putchar(c + '1');
-return (1);
-}
-else (c > 96 && c < 123)
-{
-_putchar(c + '0');
-return (0);
-}
+return (c >= 'A' && c <= 'Z');
 }

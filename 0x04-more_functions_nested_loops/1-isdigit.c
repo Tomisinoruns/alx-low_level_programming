@@ -3,17 +3,7 @@
  *_isdigit- check for digit
  *Return: 0
  */
-int _isdigit(void)
+int _isdigit(int c)
 {
-int c;
-if (c > 48 && c < 58)
-{
-_putchar(c + '1');
-return (1);
-}
-else (c < 48 && c > 58)
-{
-_putchar(c + '0');
-return (0);
-}
+return (c >= '0' && c <= '9');
 }
