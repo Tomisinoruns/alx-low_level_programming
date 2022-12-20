@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *puts- prints one char out of 2 of a string
+ *puts2- prints one char out of 2 of a string
  *followed by a new line
  *@str: string to print the chars from
  */
@@ -12,7 +12,7 @@ while (str[j] != '\0')
 {
 j++;
 }
-for (i = 0; i < j; i +=2)
+for (i = 0; i < j; i += 2)
 {
 _putchar(str[i]);
 }
