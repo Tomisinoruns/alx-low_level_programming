@@ -4,7 +4,7 @@
  *@s: string to modify
  *Return: the resulting string
  */
-char *cap_strig(char *s)
+char *cap_string(char *s)
 {
 int i, j;
 char ch[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?',

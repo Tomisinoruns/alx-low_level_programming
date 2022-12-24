@@ -15,11 +15,10 @@ for (j = 0; x[j] != '\0'; j++)
 {
 if (s[i] == x[j])
 {
-s[i]= y[j];
+s[i] = y[j];
 break;
 }
 }
 }
 return (s);
 }
-    
